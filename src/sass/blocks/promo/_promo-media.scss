@@ -1,0 +1,18 @@
+
+@media (max-width: 768px) {
+    .promo {
+        &__title {
+            line-height: 39px;
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .promo {
+        background: url('../img/main_bg.png') no-repeat 57% / cover;
+        &__btns {
+            margin-top: 30px;
+        }
+    }
+}

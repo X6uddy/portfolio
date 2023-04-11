@@ -1,0 +1,26 @@
+@media (max-width: 992px) {
+    .price {
+        &__block {
+            grid-template-columns: repeat(auto-fit, 350px);
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .price {
+        padding-top: 40px;
+        &__block {
+            margin-top: 20px;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .price {
+        &__block {
+            grid-template-columns: repeat(auto-fit, 295px);
+        }
+    }
+}

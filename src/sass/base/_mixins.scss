@@ -1,0 +1,67 @@
+@mixin before_circle {
+    &::before {
+    content: '';
+    position: absolute;
+    top: -25%;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    background: $main_color;
+    border-radius: 100%;
+    z-index: -1;
+    }
+}
+
+@mixin before_menu {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        color: black;
+        border-radius: 100%;
+        border: 1px solid;
+        top:10px;
+        left:-35px;
+        z-index: 10;
+        transition: all 1s;
+    }
+}
+
+@mixin before_resume {
+        &::before {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            background-color: $main-color;
+            top:50%;
+            transform: translateY(-50%);
+            left: -7px;
+        }
+}
+
+@mixin after_resume {
+    &::after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        top: -16px;
+        left: 0;
+        background-color: black;
+    }
+    
+}
+
+@mixin before_location {
+      &::before {
+        content: '';
+        height: 1px;
+        width: 45px;
+        position: absolute;
+        background-color: black;
+        top: 72px;
+      }
+}

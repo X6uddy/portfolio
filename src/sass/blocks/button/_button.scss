@@ -1,0 +1,21 @@
+.btn {
+    height: 45px;
+    background: $main-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+.promo__link {
+    padding-left: 25px;
+    height: 45px;
+    width: 135px;
+    &:last-child {
+        box-sizing: border-box;
+        background-color: $main_color;
+        border: none;
+        text-align: center;
+        color: $white;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
